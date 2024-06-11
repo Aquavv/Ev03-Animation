@@ -1,0 +1,78 @@
+css
+.container-fluid {
+    background-size: cover; 
+  }
+    .pikachu{
+        img{
+            width: 300px;
+            height: 450px;
+        }
+    }
+    .ojos1{
+        img{
+            margin-top: -560px;
+            margin-left: -65px;
+            width: 30px;
+            height: 40px;
+            z-index: 100;
+        }
+    }
+    .ojos2{
+        img{       
+            margin-top: -660px;
+            margin-left: 40px;
+            width: 30px;
+            height: 40px;
+            z-index: 100;
+        }
+    }
+    .boca{
+        img{
+            
+            z-index: 100;
+            width: 60px;
+            height: 70px;
+            margin-top: -550px;
+            margin-left: -20px;
+        }
+        
+    }
+    .brazos1{
+        img{
+            z-index: 100;
+            margin-top: -450px;
+            margin-left: -90px;
+            width: 60px;
+            height: 70px;
+        }
+    }
+    .brazos2{
+        img{
+            z-index: 100;
+            margin-top: -500px;
+            margin-left: 65px;
+            width: 60px;
+            height: 70px;
+        }
+    }
+    .cola{
+        img{  
+        
+            width: 200px;
+            height: 250px;
+            margin-top: -700px;
+            margin-left: 285px;
+        }
+    }
+
+    .ojosAnimados {
+        animation: parpadeo 1s ; 
+      }
+      
+      @keyframes parpadeo {
+        0% { transform: scaleY(1); }
+        50% { transform: scaleY(0.01); } 
+        100% { transform: scaleY(1); }
+      }
+
+    
